@@ -32,8 +32,6 @@ public class Main {
         myPorche.accelerate(-33);
         myPorche.stop();
 
-
-
     }
 
 }

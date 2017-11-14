@@ -60,7 +60,4 @@ public class Vehicle {
         System.out.println("Vehicle.move() Moving at: " + currentVelocity + " in direction " + currentDirection);
     }
 
-
-
-
 }

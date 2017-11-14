@@ -42,10 +42,5 @@ public class Porche extends Car {
             changeVelocity(newVelocity, getCurrentDirection());
         }
 
-
-
-
-
-
     }
 }

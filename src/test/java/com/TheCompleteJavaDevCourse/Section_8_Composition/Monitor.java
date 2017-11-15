@@ -1,6 +1,7 @@
 package com.TheCompleteJavaDevCourse.Section_8_Composition;
 
 public class Monitor {
+
     private String model;
     private String manufacture;
     private int size;

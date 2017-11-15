@@ -23,4 +23,14 @@ public class PC {
     public Motherboard getMotherboard() {
         return motherboard;
     }
+
+    public void powerUp() {
+        theCase.pressPowerButton();
+        drawLogo();
+    }
+
+    private void drawLogo() {
+        //TODO: create graphics here.
+        monitor.drawPixelAt(1200, 50, "yellow");
+    }
 }

@@ -12,7 +12,7 @@ public class Challenge_1 {
         displayHighScorePosition("Brenda", 1);
 
         int highScorePosition = calculateHighScorePosition(playerScore);
-        System.out.println("Player returned a high score position of " + highScorePosition);
+        System.out.println("Player2 returned a high score position of " + highScorePosition);
     }
 
 

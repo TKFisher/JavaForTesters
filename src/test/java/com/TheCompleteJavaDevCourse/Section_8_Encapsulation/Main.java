@@ -7,8 +7,25 @@ public class Main {
 
         System.out.println("********** Part 1 - Demo ");
 
-        Player player = new Player("Rockie", 50, "sword");
-        System.out.println("Status of health of player is = " + player.getHealth());
+        // Non Encapsulated:
+        Player1 player1 = new Player1();
+        player1.name = "Tim";
+        player1.health = 20;
+        player1.weapon = "sword";
+        int damage = 10;
+        player1.loseHealth(damage);
+        System.out.println("Remaining health is " + player1.health);
+        damage = 11;   // this will by pass
+        player1.loseHealth(damage);
+        System.out.println("Remaining health is " + player1.health);
+
+        System.out.println("********** ");
+
+        // Encapsulated version
+        Player2 player2 = new Player2("Rockie", 50, "sword");
+        // Accessing the health score by calling the getHealth() method instead of the public variable like
+        // in the above Player1 class.
+        System.out.println("Status of health of player is = " + player2.getHealth());
 
         System.out.println("********** Part 2 - Challenge \n ");
 

@@ -37,7 +37,7 @@ public class methodOverloading_1_Teacher {
 
 
     public static int calculateScore(String playerName, int score) {
-        System.out.println("Player " + playerName + " scored " + score + " points.");
+        System.out.println("Player2 " + playerName + " scored " + score + " points.");
         return score * 1000;
     }
 
